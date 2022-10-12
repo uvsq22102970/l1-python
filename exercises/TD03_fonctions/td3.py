@@ -49,3 +49,13 @@ def demandeTemps():
 
 
 afficheTemps(demandeTemps())
+
+
+
+def multiplie(x):
+    """ Cette fonction multiplie son argument par 2 et l'affiche"""
+    print(x*2)
+
+help(multiplie)
+multiplie(7)
+multiplie("aaa")
